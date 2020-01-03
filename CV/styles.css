@@ -1,0 +1,87 @@
+body {
+  background-color: #fdf6e3;
+  color: #002b36;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}
+
+h3 {
+  background-color: #002b36;
+  color: #fdf6e3;
+  padding: 0px 50px;
+  margin: 0px;
+}
+
+p {
+  padding: 10px;
+  margin: 0px;
+}
+
+a {
+  color: #268bd2;
+}
+
+a:hover {
+  background-color: #268bd2;
+  color: #fdf6e3;
+}
+
+ol {
+  margin: 0px;
+  padding: 10px 30px;
+}
+
+ul {
+  list-style-type: square;
+  margin: 0px;
+  padding: 10px 30px;
+}
+
+li {
+  padding: 5px;
+}
+
+#resume {
+  padding: 20px;
+  margin: 20px auto;
+  width: 1024px;
+}
+
+.header {
+  border-left: 2px solid #002b36;
+  text-decoration: underline;
+}
+
+.group {
+  margin: 0px;
+}
+
+.group-name,
+.group-summary,
+.group-examples,
+.group-education {
+  border-right: 2px solid #002b36;
+}
+
+.group-contacts,
+.group-skills,
+.group-experience,
+.group-english {
+  border-left: 2px solid #002b36;
+}
+
+.group-english {
+  border-bottom: 2px solid #002b36;
+}
+#resume-photo {
+  float: right;
+}
+
+#resume-name {
+  padding: 25px 0px 26px;
+}

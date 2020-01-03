@@ -1,0 +1,26 @@
+https://caniuse.com
+
+
+
+
+
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
+
+
+
+x morse-decoder https://github.com/romacher/morse-decoder
+x brackets  https://github.com/Shastel/brackets
+x zeros https://github.com/Shastel/zeros
+○ expression-calculator https://github.com/romacher/expression-calculator
+x multiply https://github.com/Shastel/multiply
+x finite-state-machine https://github.com/rolling-scopes-school/finite-state-machine
+○ doubly-linked-list https://github.com/rolling-scopes-school/doubly-linked-list
+x js-edu https://github.com/davojta/js-edu
+x tic-tac-toe https://github.com/rolling-scopes-school/tic-tac-toe
+x guessing-game https://github.com/rolling-scopes-school/guessing-game
+
+
+function echo(something) {
+    console.log(something);
+}

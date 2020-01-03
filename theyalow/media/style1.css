@@ -1,0 +1,15 @@
+p {
+	background-color: yellow;
+}
+
+@media (max-width: 979px) {
+	p {
+		background-color: lightblue;
+	}
+}
+
+@media (max-width: 299px) {
+	p {
+		background-color: red;
+	}
+}

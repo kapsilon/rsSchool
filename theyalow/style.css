@@ -1,0 +1,372 @@
+body {
+	/* max-width: 1300px; */
+	margin: 0px;
+}
+
+header {
+	background-image: url(assets/background-header.png);
+	background-size: 100%;
+	color: #ffffff;
+	display: grid;
+	grid-template-columns: 11% 44% 34% 11%;
+	grid-template-rows: 160px 327px;
+	margin: 0px;
+	height: 566px;
+}
+.logo {
+	display: flex;
+	font-style: italic;
+	margin-top: 22px;
+	font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
+	font-size: 17px;
+}
+.logo img {
+	vertical-align: bottom;
+	text-align: center;
+}
+
+.navigation {
+	background-color: #f5c506;
+	color: #9b7d08;
+	display: grid;
+	grid-template-columns: 10% 30% 30% 30%;
+	height: 42px;
+	width: 454px;
+	margin-top: 45px;
+}
+.nav-button {
+	display: flex;
+}
+.nav-button img {
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.nav-button p {
+	margin-left: 10px;
+	margin-top: 12px;
+	margin-bottom: 0px;
+}
+
+#services {
+	border-left: solid 1px #dcb105;
+	border-right: solid 1px #dcb105;
+}
+
+.nav-button:hover {
+	background-color: #9b7d08;
+	color: #f5c506;
+}
+
+.control {
+	align-self: center;
+}
+.control p {
+	color: #ffffff;
+	background-color: #cba50c;
+	padding: 20px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	width: 15px;
+}
+
+.control p:hover {
+	color: #cba50c;
+	background-color: #ffffff;
+}
+
+#control-right {
+	justify-self: right;
+	text-align: right;
+}
+
+.banner {
+	font-family: Asap-Regular, AdobeInvisFont, MyriadPro-Regular;
+	font-size: 52px;
+	text-align: center;
+}
+.banner :first-child {
+	color: #f5c506;
+}
+
+main {
+}
+
+section {
+	text-align: center;
+}
+
+.section-first {
+	display: grid;
+	height: 212px;
+	grid-template-columns: 11% 26% 26% 26% 11%;
+	font-family: SegoeUI-Light, AdobeInvisFont, MyriadPro-Regular;
+	font-size: 25px;
+	font-stretch: condensed;
+}
+
+.block {
+	border-left: solid 1px #d2d2d2;
+	margin: 0px;
+	height: 212px;
+}
+
+.block:hover {
+	background-color: rgba(155, 125, 8, 0.5);
+}
+
+.block-third {
+	border-right: solid 1px #d2d2d2;
+}
+
+.block-first img {
+	padding-top: 51px;
+}
+
+.block-second img {
+	padding-top: 30px;
+}
+
+.block-third img {
+	padding-top: 42px;
+}
+
+.section-second {
+	background-image: url(assets/background-section2.png);
+	height: 509px;
+}
+
+.section-second-header {
+	display: grid;
+	grid-template-columns: 11% 78% 11%;
+	font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
+	font-size: 37px;
+	text-align: left;
+	color: #ffffff;
+	font-stretch: condensed;
+}
+
+.slider {
+	display: grid;
+	grid-template-columns: 11% 78% 11%;
+}
+
+.slider-carousel {
+	overflow-x: auto;
+	display: flex;
+}
+
+.slider-carousel::-webkit-scrollbar {
+	border-radius: 8px;
+	width: 800px;
+	height: 16px;
+	background-color: #fae694;
+}
+
+.slider-carousel::-webkit-scrollbar-thumb {
+	background-color: #ec9e03;
+	border-radius: 8px;
+}
+
+.item {
+	display: grid;
+	grid-template-columns: 341px;
+	grid-template-rows: 233px 86px;
+	margin-right: 26px;
+}
+
+.item-with-video {
+	display: grid;
+	grid-template-columns: 341px 315px;
+	grid-template-rows: 233px 86px;
+	margin-right: 26px;
+	margin-bottom: 30px;
+}
+
+.item-content {
+	background-color: #ec9e03;
+	color: #ffffff;
+	font-family: SegoeWP-Light, AdobeInvisFont, MyriadPro-Regular;
+	font-size: 29px;
+	font-weight: lighter;
+	text-align: left;
+}
+
+.item-content p {
+	margin: 19px 26px 18px 29px;
+	hyphens: auto;
+}
+
+.item-content .counter {
+	text-align: right;
+}
+
+.item-content img {
+	text-align: center;
+	padding-left: 30%;
+}
+
+.item-content .plus {
+	float: inline-end;
+	text-align: right;
+	padding-right: 5px;
+	padding-bottom: 2px;
+}
+
+.plus:hover {
+	color: #000000;
+}
+
+.item-calendar {
+	height: 86px;
+	width: 113px;
+	background-color: #ddb101;
+}
+
+.item-calendar .day {
+	font-family: SegoeUI-Bold, AdobeInvisFont, MyriadPro-Regular;
+	font-size: 51px;
+	font-weight: bold;
+	margin: 0px;
+	color: #ffffff;
+}
+
+.item-calendar .month {
+	font-family: SegoeUI, AdobeInvisFont, MyriadPro-Regular;
+	font-size: 21px;
+	margin: 0px;
+	color: #b26529;
+}
+
+.section-third {
+	background-image: url(assets/background-section3.png);
+	height: 499px;
+}
+
+.section-third p {
+	color: #f5c506;
+	font-family: PTSans-Regular, AdobeInvisFont, MyriadPro-Regular;
+	font-size: 43px;
+	padding-top: 38px;
+	margin: 0px;
+}
+.description {
+	display: grid;
+	grid-template-columns: 11% auto auto 11%;
+	gap: 10px;
+}
+
+.sticker {
+	background-image: url(assets/circle.svg);
+	position: absolute;
+	height: 120px;
+	width: 120px;
+}
+
+.sticker p {
+	color: #ffffff;
+	font-family: PTSans-NarrowBold, AdobeInvisFont, MyriadPro-Regular;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.gadgets {
+	padding-top: 43px;
+}
+.gadget {
+	padding-right: 20px;
+}
+.gadget2,
+.gadget3 {
+	padding-bottom: 40px;
+}
+
+ul {
+	list-style-type: disc;
+	list-style-image: url(assets/"bullet.svg");
+	text-align: left;
+	width: 345px;
+	padding-top: 43px;
+	margin: 0px;
+}
+li {
+	color: #f5c506;
+	padding: 14px;
+}
+
+li span {
+	color: #a9a9a7;
+	font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
+	font-size: 22px;
+	hyphens: auto;
+}
+
+footer {
+	background-color: #4c4c4c;
+	color: #ffffff;
+	height: 64px;
+	font-family: LucidaSans-Italic, AdobeInvisFont, MyriadPro-Regular;
+	font-size: 29px;
+	display: grid;
+	grid-template-columns: 11% 225px auto 11%;
+}
+
+.logo-footer {
+	margin-top: 2px;
+	height: 58px;
+	width: 225;
+}
+.logo-footer img {
+	margin-top: 2px;
+}
+
+.logo-footer p {
+	padding-top: 14px;
+	margin: 0px;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+h2 {
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.shadowed {
+	box-shadow: 0px -12px 6px -9px #000000 inset;
+}
+
+video::-webkit-media-controls-panel {
+	opacity: 0.9;
+}
+video::-webkit-media-controls-play-button {
+	background-color: #f5c506;
+}
+video::-webkit-media-controls-timeline-container {
+	height: 12px;
+	border-radius: 6px;
+}
+video::-webkit-media-controls-mute-button {
+	background-image: url(assets/volume.svg);
+}
+video::-webkit-media-controls-fullscreen-button {
+	display: none;
+}
+video::-webkit-media-controls-current-time-display {
+	display: none;
+}
+
+
+@media (max-width: 720px) {
+	blank,
+	banner,
+	control,
+	description ul{
+		display: none;
+	}
+}
